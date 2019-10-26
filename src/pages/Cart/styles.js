@@ -21,6 +21,7 @@ export const Container = styled.div`
       font-weight: bold;
       text-transform: uppercase;
       transition: background 0.2s;
+      cursor: pointer;
 
       &:hover {
         background: ${darken(0.03, '#7159c1')};
@@ -38,9 +39,10 @@ export const ProductTable = styled.table`
     text-align: left;
   }
 
-  tbody td {
+  tbody th {
     padding: 12px;
     border-bottom: 1px solid #eee;
+    text-align: left;
   }
 
   img {
@@ -76,6 +78,7 @@ export const ProductTable = styled.table`
     padding: 6px;
     border: 0;
     background: none;
+    cursor: pointer;
   }
 `;
 
