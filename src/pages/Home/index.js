@@ -11,7 +11,7 @@ export default function Home() {
           alt="Tenis"
         />
         <strong>Tênis muito legal</strong>
-        <span>R$ 129,90</span>
+        <span>R$129,90</span>
         <button type="button">
           <div>
             <MdAddShoppingCart size={16} color="#FFF" /> 3
