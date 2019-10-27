@@ -6,6 +6,7 @@ import {
 } from 'react-icons/md';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import PropTypes from 'prop-types';
 import { Container, ProductTable, Total } from './styles';
 import * as CarTActions from '../../store/modules/cart/actions';
 import { formatPrice } from '../../util/format';
@@ -107,3 +108,10 @@ export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(Cart);
+
+Cart.propTypes = {
+  cart: PropTypes.shape().isRequired,
+  total: PropTypes.number.isRequired,
+  removeFromCart: PropTypes.func.isRequired,
+  updateAmount: PropTypes.func.isRequired,
+};
