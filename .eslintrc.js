@@ -22,5 +22,7 @@ module.exports = {
     'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js'] }],
     'import/prefer-default-export': 'off',
     'react/state-in-constructor': [2, 'never'],
+    'no-console': ['error', { allow: ['tron'] }],
+    'no-param-reassign': 'off',
   },
 };

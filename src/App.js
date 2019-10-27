@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import GlobalStyles from './styles/global';
 import Routes from './routes';
 import Header from './components/Header';
+import './config/ReactotronConfig';
 import store from './store';
 
 function App() {
