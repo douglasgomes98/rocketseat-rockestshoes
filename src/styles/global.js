@@ -25,6 +25,7 @@ export default createGlobalStyle`
     margin: 0 auto;
     padding: 0 20px 50px;
   }
-
-  cursor: pointer;
+  button{
+    cursor: pointer;
+  }
 `;
