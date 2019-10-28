@@ -40,7 +40,7 @@ function Cart({ cart, total, removeFromCart, updateAmount }) {
               </th>
               <th>
                 <strong>{product.title}</strong>
-                <span>{product.priceFormmatted}</span>
+                <span>{product.priceFormatted}</span>
               </th>
               <th>
                 <div>
